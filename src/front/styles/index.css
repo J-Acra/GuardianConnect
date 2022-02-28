@@ -1,3 +1,26 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
+body {
+  color: white;
+}
+.title {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 35%;
+}
+.container {
+  display: flex;
+}
+.test {
+  display: block;
+  margin: 20px;
+}
+.left {
+  width: 800px;
+}
+.signup {
+  position: absolute;
+  right: 0;
+}
+.login {
+  position: absolute;
+  right: 3.5%;
+}
