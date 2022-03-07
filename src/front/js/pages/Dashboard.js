@@ -8,7 +8,7 @@ import { RideRequestDropdown } from "../component/RideRequestDropdown.jsx";
 import "../../styles/guardianHome.css";
 import { SchoolsAcceptedCarousel } from "../component/SchoolsAcceptedCarousel.jsx";
 
-export const GuardianHome = (props) => {
+export const Dashboard = (props) => {
   const { store, actions } = useContext(Context);
   const params = useParams();
   return (

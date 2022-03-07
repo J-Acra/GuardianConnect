@@ -11,20 +11,11 @@ export const NavPage = () => {
       <Link to={"/user/create"}>
         <button>User Create</button>
       </Link>
-      <Link to={"/guardian/home"}>
-        <button>Guardian Home</button>
+      <Link to={"/user/home"}>
+        <button>Dashboard</button>
       </Link>
-      <Link to={"/guardian/login"}>
-        <button>Guardian Login</button>
-      </Link>
-      <Link to={"/school/create"}>
-        <button>School Create</button>
-      </Link>
-      <Link to={"/school/login"}>
-        <button>School Login</button>
-      </Link>
-      <Link to={"/school/home"}>
-        <button>School Home</button>
+      <Link to={"/user/login"}>
+        <button>User Login</button>
       </Link>
       <Link to={"/"}>
         <button>LandingPage</button>

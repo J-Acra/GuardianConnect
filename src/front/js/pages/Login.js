@@ -4,7 +4,7 @@ import { Context } from "../store/appContext";
 import "../../styles/guardianLogin.css";
 import { Link } from "react-router-dom";
 
-export const GuardianLogin = () => {
+export const UserLogin = () => {
   const history = useHistory();
   const { store, actions } = useContext(Context);
   const [email, setEmail] = useState("");

@@ -2,13 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
-import { GuardianLogin } from "./pages/GuardianLogin.js";
+import { UserLogin } from "./pages/Login.js";
 import { UserSignup } from "./pages/UserSignup.jsx";
-import { SchoolLogin } from "./pages/SchoolLogin";
-import { SchoolSignUp } from "./pages/SchoolSignUp.js";
-import { GuardianHome } from "./pages/GuardianHome";
+import { Dashboard } from "./pages/Dashboard.js";
 import { NavPage } from "./pages/NavPage";
-import { SchoolHome } from "./pages/SchoolHome";
 import { LandingPage } from "./pages/LandingPage";
 
 import injectContext from "./store/appContext";
@@ -30,23 +27,14 @@ const Layout = () => {
             <Route exact path="/">
               <LandingPage />
             </Route>
-            <Route exact path="/school/create">
-              <SchoolSignUp />
-            </Route>
-            <Route exact path="/school/login/">
-              <SchoolLogin />
-            </Route>
-            <Route exact path="/guardian/login">
-              <GuardianLogin />
+            <Route exact path="/user/login">
+              <UserLogin />
             </Route>
             <Route exact path="/user/create">
               <UserSignup />
             </Route>
-            <Route exact path="/guardian/home">
-              <GuardianHome />
-            </Route>
-            <Route exact path="/school/home">
-              <SchoolHome />
+            <Route exact path="/user/home">
+              <Dashboard />
             </Route>
             <Route>
               <h1>Not found!</h1>
