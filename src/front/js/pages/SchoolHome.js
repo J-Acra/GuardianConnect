@@ -16,7 +16,7 @@ export const SchoolHome = (props) => {
       <SchoolHomeNavbar />
       <div className="box-modeling">
         <div>
-          <div className="box box-1">
+          <div className="boxH box-1">
             <div>
               <h3>Search Guardians</h3>
               <p>
@@ -33,7 +33,7 @@ export const SchoolHome = (props) => {
               <button className="button button1 right">Press</button>
             </div>
           </div>
-          <div className="box box-2">
+          <div className="boxH box-2">
             <div>
               <h3>View Complaints</h3>
               <p>
@@ -48,7 +48,7 @@ export const SchoolHome = (props) => {
           </div>
         </div>
         <div>
-          <div className="box box-3">
+          <div className="boxH box-3">
             <h3>Edit School</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -58,7 +58,7 @@ export const SchoolHome = (props) => {
             <button className="button button2 left">Press</button>
             <button className="button button2 right">Press</button>
           </div>
-          <div className="box box-4">
+          <div className="boxH box-4">
             <h3>Request</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras

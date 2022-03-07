@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 .box {
+  padding-top: 200px;
+  margin: auto;
   display: flex;
   margin-right: 0px;
   margin-left: 0px;
@@ -24,6 +26,7 @@
     rgba(0, 212, 255, 1) 100%
   );
   border: 1px solid black;
+  color: white;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   width: 400px;
@@ -34,6 +37,6 @@
 h1 {
   margin-top: 20px;
 }
-.towhite{
-    color: white;
+.towhite {
+  color: white;
 }

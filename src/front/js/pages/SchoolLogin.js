@@ -5,7 +5,7 @@ import "../../styles/SchoolLogin.css";
 
 export const SchoolLogin = () => {
   return (
-    <div className="box">
+    <div className="box SchoolLogin">
       <div className="text-center m-5-auto login-form toblack ">
         <h1>Sign in to us</h1>
         <form action="/home">
@@ -30,7 +30,7 @@ export const SchoolLogin = () => {
         </form>
         <footer>
           <p>
-            First time? <Link to="/register">Create an account</Link>.
+            First time? <Link to="/school/create">Create an account</Link>.
           </p>
           <p className="towhite">
             <Link to="/">Back to Homepage</Link>

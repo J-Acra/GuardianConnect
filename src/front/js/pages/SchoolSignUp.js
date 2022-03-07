@@ -6,7 +6,7 @@ import "../../styles/SchoolSignUp.css";
 export const SchoolSignUp = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-schoolsignup ">
         <div className="text- form toblack">
           <h1>Join us</h1>
           <h5>Create your personal account</h5>
@@ -35,10 +35,10 @@ export const SchoolSignUp = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  terms of service
+                  terms of service.
                 </a>
               </span>
-              .
+              
             </p>
             <p>
               <button id="sub_btn" type="submit">

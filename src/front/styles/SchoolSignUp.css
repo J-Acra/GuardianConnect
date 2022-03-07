@@ -1,7 +1,8 @@
 .toblack {
   color: black;
 }
-.container {
+.container-schoolsignup {
+  padding-top: 200px;
   display: flex;
   margin: auto;
   padding-right: 250px;
@@ -10,7 +11,7 @@
 .text- {
   text-align: center;
   margin: auto;
-  margin-left: 24%;
+  margin-left: 26%;
   display: block;
   width: 317px;
   height: 500px;

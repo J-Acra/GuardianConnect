@@ -42,7 +42,7 @@
   display: flex;
   margin-top: 40px;
 }
-.SchoolHome .box {
+.SchoolHome .boxH {
   margin: 20px;
   border: 1px solid black;
   border-radius: 6px;
@@ -71,22 +71,6 @@
   padding: 0;
   width: 100px;
   height: 35px;
-}
-.SchoolHome .button1 {
-  position: relative;
-  top: 150px;
-}
-.SchoolHome .button2 {
-  position: relative;
-  top: 245px;
-}
-.SchoolHome .button3 {
-  position: relative;
-  top: 220px;
-}
-.SchoolHome .button4 {
-  position: relative;
-  top: 174px;
 }
 .SchoolHome .left {
   right: 150px;
