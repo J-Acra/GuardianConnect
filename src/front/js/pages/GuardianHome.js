@@ -13,7 +13,7 @@ export const GuardianHome = (props) => {
   const params = useParams();
   return (
     <div className="GuardianHome">
-      <GuardianNav />
+      <GuardianNav /> 
       <div
         style={{
           backgroundColor: "white",
