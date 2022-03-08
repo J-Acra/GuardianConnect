@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Context } from "../store/appContext";
-import "../../styles/guardianLogin.css";
+import "../../styles/userLogin.css";
 import { Link } from "react-router-dom";
 
 export const UserLogin = () => {
@@ -18,7 +18,7 @@ export const UserLogin = () => {
             className="text-center"
             onSubmit={(e) => {
               actions.createNewSession(email, password).then((session) => {
-                history.push("/");
+                history.push("/user/home");
               });
               e.preventDefault();
             }}

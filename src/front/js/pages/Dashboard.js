@@ -5,7 +5,7 @@ import { Context } from "../store/appContext";
 import { GuardianNav } from "../component/GuardianNav.jsx";
 import { GuardianChildCard } from "../component/GuardianChildCard.jsx";
 import { RideRequestDropdown } from "../component/RideRequestDropdown.jsx";
-import "../../styles/guardianHome.css";
+import "../../styles/Dashboard.css";
 import { SchoolsAcceptedCarousel } from "../component/SchoolsAcceptedCarousel.jsx";
 
 export const Dashboard = (props) => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import propTypes from "prop-types";
-import "../../styles/GuardianNav.css";
+import "../../styles/GuardianNavBar.css";
 
 export const GuardianNav = () => {
   return (
