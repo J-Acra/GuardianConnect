@@ -62,3 +62,21 @@ CHILDREN:[
         "phone":"305-360-1029"
     }
 ]
+
+SCHOOLS:[
+    {
+        "school_name":"Miami High",
+        "school_address":"2450 SW 1st St, Miami, FL 33135",
+        "school_logo_url":"https://www.merionpartners.com/wp-content/uploads/2015/10/400x4005.png"
+    }
+    {
+        "school_name":"Killian High",
+        "school_address":"10655 SW 97th Ave, Miami, FL 33176",
+        "school_logo_url":"https://www.merionpartners.com/wp-content/uploads/2015/10/400x4005.png"
+    }
+    {
+        "school_name":"South Miami Lutheran",
+        "school_address":"7190 Sunset Dr, Miami, FL 33143",
+        "school_logo_url":"https://www.merionpartners.com/wp-content/uploads/2015/10/400x4005.png"
+    }
+]

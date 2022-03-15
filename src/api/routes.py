@@ -79,6 +79,15 @@ def create_child():
     db.session.commit()
     return jsonify(child.serialize()),200
 
+@api.route("/guardian", methods=["GET"])
+@jwt_required()
+def get_self_guardian():
+    current_user_id=get_jwt_identity()
+    guardian = Guardian.query.filter_by(user_id=current_user_id).first()
+    if guardian is None:
+        raise APIException ("No Guardian Found")
+    guardian = guardian.serialize()
+    return jsonify(guardian)
 
 @api.route("/child", methods=["GET"])
 @jwt_required()
@@ -192,8 +201,6 @@ def get_schools():
 #     return (school)
 #     # school_access_list = School_Access.query.filter_by(school_id=school.id)
     
-
-
 
 @api.route("/school/<int:school_id>/complaint/<int:flagged_guardian_id>", methods=["POST"])
 @jwt_required()

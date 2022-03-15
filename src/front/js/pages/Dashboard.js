@@ -27,6 +27,7 @@ import { NavReuse } from "../component/NavReuse.jsx";
 // Dashboard
 export const Dashboard = (props) => {
   const [children, setChildren] = useState([]);
+  const [name, setName] = useState("");
   const history = useHistory();
   const { store, actions } = useContext(Context);
   const params = useParams();
@@ -39,39 +40,23 @@ export const Dashboard = (props) => {
   if (logStatus === null) {
     history.push("/user/login");
   }
+  console.log(name);
   return (
     <>
       <NavReuse />
       <div className="dashBoardHome">
         <IsRole roles={[null]}>
-          <p>Welcome User!</p>
+          <p>USER RENDER HERE</p>
         </IsRole>
         <IsRole roles={["admin"]}>
-          <p>Welcome Admin!</p>
+          <p>ADMIN RENDER HERE</p>
         </IsRole>
         <IsRole roles={["guardian"]}>
-          <p>Welcome Guardian</p>
+          <p>GUARDIAN RENDER HERE</p>
           {children != null ? (
             <RideRequestDropdown children={children} />
           ) : null}
         </IsRole>
-        <div
-          style={{ backgroundColor: "#F2F2F2" }}
-          className="carouselContainer"
-        >
-          <div className="text">
-            <h1>Schools</h1>
-          </div>
-          <div className="acceptedSchool">
-            <h3>Accepted</h3>
-            <div>
-              <SchoolsAcceptedCarousel />
-            </div>
-          </div>
-          <div className="pendingSchool">
-            <h3>Pending</h3>
-          </div>
-        </div>
       </div>
     </>
   );
